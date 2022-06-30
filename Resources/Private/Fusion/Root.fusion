@@ -1,0 +1,14 @@
+prototype(Neos.Neos:Page) {
+    contentCommentAnnotationInlineStyles = Prgfx.Neos.ContentCommentAnnotation:InlineStyles
+}
+
+prototype(Prgfx.Neos.ContentCommentAnnotation:InlineStyles) < prototype(Neos.Fusion:Tag) {
+    tagName = 'link'
+    attributes {
+        rel = 'stylesheet'
+        href = Neos.Fusion:ResourceUri {
+            path = 'resource://Prgfx.Neos.ContentCommentAnnotation/Public/JavaScript/Plugin.css'
+        }
+    }
+    @position = 'before closingHeadTag'
+}

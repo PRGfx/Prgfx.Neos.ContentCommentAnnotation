@@ -1,0 +1,16 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          'Prgfx.Neos.ContentCommentAnnotation:Plugin':
+            resource: resource://Prgfx.Neos.ContentCommentAnnotation/Public/JavaScript/Plugin.js
+    fusion:
+      autoInclude:
+        Prgfx.Neos.ContentCommentAnnotation: true
+
+    userInterface:
+      translation:
+        autoInclude:
+          Prgfx.Neos.ContentCommentAnnotation:
+            - Main

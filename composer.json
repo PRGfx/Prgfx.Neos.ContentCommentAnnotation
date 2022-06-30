@@ -1,0 +1,14 @@
+{
+    "name": "prgfx/neos-contentcomment-annotation",
+    "description": "Adds inline UI to the networkteam/contentcomments comments.",
+    "keywords": ["neos", "neoscms"],
+    "type": "neos-package",
+    "require": {
+        "networkteam/contentcomments": "^2.0"
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Prgfx.Neos.ContentCommentAnnotation"
+        }
+    }
+}

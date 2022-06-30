@@ -1,0 +1,20 @@
+{
+    "description": "",
+    "license": "GNU GPLv3",
+    "private": true,
+    "scripts": {
+        "build": "neos-react-scripts build",
+        "watch": "neos-react-scripts watch"
+    },
+    "devDependencies": {
+        "@neos-project/neos-ui-extensibility": "^5.3",
+        "@neos-project/react-ui-components": "^5.3"
+    },
+    "neos": {
+        "buildTargetDirectory": "../../Public/JavaScript"
+    },
+    "dependencies": {
+        "react-dom-instance": "^2.0.0",
+        "with-default-props": "^0.2.1"
+    }
+}
