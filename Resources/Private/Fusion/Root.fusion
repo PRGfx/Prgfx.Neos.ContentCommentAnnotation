@@ -1,5 +1,7 @@
 prototype(Neos.Neos:Page) {
-    contentCommentAnnotationInlineStyles = Prgfx.Neos.ContentCommentAnnotation:InlineStyles
+    contentCommentAnnotationInlineStyles = Prgfx.Neos.ContentCommentAnnotation:InlineStyles {
+        @if.inBackend = ${node.context.inBackend}
+    }
 }
 
 prototype(Prgfx.Neos.ContentCommentAnnotation:InlineStyles) < prototype(Neos.Fusion:Tag) {
